@@ -1,0 +1,34 @@
+*Prompts*
+
+Sentiment analysis for political, geographical and gender tests:
+
+"You will receive an economic article headline. Assign sentiment on a scale from -5 (strongly negative) to 5 (strongly positive). Return just the sentiment value as one number"
+
+
+Masking country names:
+
+"You will receive a headline of an economic news article in Polish. Find all mentioned countries or nationalities and assign them codes 'AAA', 'BBB', 'CCC' and so on. Replace the mentions in text with the codes, so that the reader doesn't know which countries are mentioned, but the meaning remaind unchanged. If the same country is mentioned more than once, keep its code consistent. If no country or nationality is mentioned, return the original text. Assign the codes only to the countries or nationalities, ignoring the regions, companies, organisations and other entities.
+
+Provide the sentence with masked countries and the codes assigned to them in a form: 'Sentence;code1:country1;code2:country2...'. Provide country names in English.
+
+Example:
+
+Original text: 'Nadal setki estońskich firm handlują z Rosją. Estoński eksport do Rosji spadł drastycznie w następstwie inwazji tego kraju na Ukrainę, jednak handel z nią nadal prowadzi ponad 300 zarejestrowanych w Estonii firm.'
+
+Output: 'Nadal setki AAA firm handlują z BBB. AAA eksport do BBB spadł drastycznie w następstwie inwazji tego kraju na CCC, jednak handel z nią nadal prowadzi ponad 300 zarejestrowanych w AAA firm.;AAA:Estonia;BBB:Russia;CCC:Ukraine'"
+
+
+Sentiment analysis for masked headlines:
+
+"You will receive a header of an economic article in Polish. Mentions of country names or nationalities have been replaced with codes 'AAA', 'BBB' and so on. Assign the sentiment of the article towards each country on a scale from -5 (strongly negative) to 5 (strongly positive). 
+
+Return the list of pairs 'CODE:sentiment', separated by a comma. 
+For example, the output 'AAA:-3,BBB:5' means that the article is negative towards the first country but strongly positive towards the other."
+
+
+Sentiment analysis for original headlines:
+
+"You will receive a header of an economic article in Polish. The article may mention one or more countries. Assign the sentiment of the article towards each country on a scale from -5 (strongly negative) to 5 (strongly positive). 
+Return the list of pairs 'country:sentiment', separated by a comma. Write country names in English.
+
+For example, the output 'Poland:-3,US:5' means that the article is negative towards Poland but strongly positive towards the US. If no country is mentioned, return 'None' with the overall sentiment of the text, for example: 'None:-1'."
