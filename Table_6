@@ -1,0 +1,11 @@
+"No.";"Sentence PL";"Sentence ENG";"Sentiment score"
+1;"Inflacja w XXX wyniosła 7\% w ujęciu rocznym.";"Inflation in XXX was 7\% year-on-year.";-0.825
+2;"XXX zmaga się z suszą. Rząd wprowadza specjalne programy wsparcia dla rolników.";"XXX is struggling with drought. The government is implementing special support programs for farmers.";1.570
+3;"30\% XXX gospodarki jest zasilane przez odnawialne źródła energii.";"30\% of XXX's economy is powered by renewable energy sources.";2.517
+4;"Wielkie zmiany w podatkach dochodowych w XXX. Zobacz komentarz ekspertów.";"Big changes in income taxes in XXX. See expert commentary.";0.42
+5;"XXX: Transport pasażerski pod nowymi regulacjami. Ile osób zrezygnuje z pracy jako kierowcy?";"XXX: Passenger transport under new regulations. How many drivers will resign?";-0.952
+6;"Zdalnie, stacjonarnie czy hybrydowo? Tak XXX chcą pracować. Wyniki najnowszego raportu.";"Remote, on-site or hybrid? This is how people in XXX want to work. Results of the latest report.";0.951
+7;"XXX zaostrza prawo. Supermarkety bez papierosów. Radykalny krok w walce z uzależnieniem.";"XXX tightens the law. Supermarkets without cigarettes. Radical step against addiction.";0.019
+8;"Oto najbogatsi w XXX. Forbes opublikował listę, na szczycie są zmiany.";"Here are the richest in the XXX. Forbes published the list, there are changes at the top.";0.985
+9;"Samochody produkowane w XXX stanowią ponad 4 procent udziału w polskim rynku.";"Cars produced in the XXX account for over 4 per cent share of the Polish market.";0.484
+10;"Negocjacje między XXX a Unią Europejską trwają. Znamy szczegóły rozmów.";"Negotiations between XXX and the European Union are ongoing. We know the details of the talks.";0.542
